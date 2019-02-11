@@ -1,0 +1,48 @@
+.lists {
+  padding: 10px;
+}
+
+.list {
+  width: 33%;
+  margin-right: .5%;
+  display: inline-block;
+  position: relative;
+}
+
+.list:nth-child(3n) {
+  margin-right: 0;
+}
+
+.list img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.list .list_name {
+  font-size: 12px;
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.list .play_count {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  font-size: 12px;
+  background: linear-gradient(180deg, rgba(0,0,0,.4), rgba(0,0,0,0) );
+  height: 26px;
+  line-height: 26px;
+  width: 100%;
+  text-align: right;
+  /* padding-right: 5px; */
+}
+.list .play_count i {
+  margin: 0 6px;
+  vertical-align: top;
+}

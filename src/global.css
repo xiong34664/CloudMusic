@@ -1,0 +1,49 @@
+
+html, body, #root {
+  height: 100%;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+.list-title {
+  line-height: 30px;
+  padding-left: 10px;
+}
+.list-title i {
+  font-size: 12px;
+}
+
+.song-list {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+  margin-bottom: 6px;
+}
+.song-list .list-index {
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+}
+.song-list .list-con {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.song-list .list-con div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 96%;
+}
+.song-list span {
+  opacity: .8;
+}
+.song-list .list-con .singer{
+  font-size: 12px;
+}

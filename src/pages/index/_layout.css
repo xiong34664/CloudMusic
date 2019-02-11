@@ -1,0 +1,42 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.body {
+  flex: 1;
+  /* height: 100%; */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.top_tabs {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #676767;
+  line-height: 50px;
+  font-size: 16px;
+}
+.top_tabs i {
+  font-size: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.my-drawer {
+  display: flex;
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer :global(.am-drawer-sidebar) {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer :global(.am-drawer-sidebar .am-list) {
+  width: 300px;
+  padding: 0;
+}
